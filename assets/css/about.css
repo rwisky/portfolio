@@ -1,0 +1,79 @@
+#part-one {    
+    height: 600px;
+    background-color: #198167;
+    background-image: url(assets/img/main-cover.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+#intro-wrapper {
+    color: white;
+    max-width: 450px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+#intro-text {
+    line-height: 1.75;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sign-up {
+    font-size: 24px;
+    font-weight: bold;
+    color: #421981;
+    background-color: white;
+    padding: 7px 25px;
+    border-radius: 20px;
+    transition: .3s;
+    display: inline-block;
+}
+
+#sign-up:hover {
+    background-color: yellow;
+    color: #421981;
+  }
+
+/*CSS for our feature*/
+
+#our-features {
+    padding: 0 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.of-title-wrapper {
+    text-align: center;
+}
+
+.of-unit {
+    background-color: bisque;
+    border-radius: solid 14px;
+    border-color: #421981;
+    margin: 20px 0;
+    display: flex;
+    z-index: 1;
+}
+
+.ofu-text {
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ofu-img-wrapper {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CSS untuk footer*/

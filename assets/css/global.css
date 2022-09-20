@@ -1,0 +1,122 @@
+/*selektor css secara umum ya*/
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+
+div {
+    display: block;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
+    display:inline-flex;
+    flex: 1 0;
+    background-color: aliceblue;
+}
+
+
+/* ini adalah halaman untuk navigasi bar*/
+
+#first-row {
+    display: flex;
+    flex-direction:column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    background-color: #421981;
+}
+
+#navbar-logo {
+    padding-bottom: 2px;
+    flex: 1 0;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#login-btn {
+    background-color: orange;
+    color: #1f1f1f;
+
+}
+
+#login-btn:hover {
+    background-color: #1f1f1f;
+    color: yellow;
+
+}
+#header-wrapper {
+    background-color: #421981;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    box-shadow: rgb(0 0 0 / 15%) 0px -2px 10px;
+    user-select: none;
+}
+
+#main-wrapper {
+    background-color: #e7ebefff;
+    flex: 1;
+}
+
+.navigation-bar {
+    float: right;
+    height: 70px;
+    width: 100%;
+}
+
+a {
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 14px;
+    float: left;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    margin: 5px;
+    border-radius: 14px;
+    float: left;
+}
+
+
+/* css untuk footer*/
+
+#footer-wrapper {
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #e7ebefff;
+    color: rgb(50,50,50);
+    border-top: 1px solid #d1d1d1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    user-select: none;
+}
